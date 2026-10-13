@@ -1,6 +1,6 @@
 # Granary
 
-在 **HarmonyOS NEXT（纯血鸿蒙）** 平板上运行 **PC 版**《星露谷物语》的启动器。
+在 **HarmonyOS NEXT（纯血鸿蒙）** 手机 / 平板 / PC 上运行 **PC 版**《星露谷物语》的启动器。
 
 <!-- TODO: 实机录屏截图，建议原创像素风封面 + 游戏内实拍 -->
 ![screenshot](docs/screenshot.png)
@@ -15,7 +15,7 @@
 
 ## 系统要求
 
-- HarmonyOS NEXT 设备（平板最佳；已在 Mate X6、MatePad（MRDI-W00）实测）
+- HarmonyOS NEXT 手机 / 平板 / PC（已在 Mate X6 手机、MatePad（MRDI-W00）平板、PC 实测）
 - 蓝牙或 USB 键鼠（可选，触屏模式可不接）
 - 预留约 4GB 存储空间（应用 + .NET 运行时 + 游戏文件）
 
