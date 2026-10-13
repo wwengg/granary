@@ -4,8 +4,19 @@
 
 📺 演示视频与使用教程见抖音：[点此关注](https://www.douyin.com/user/MS4wLjABAAAAndgN-tv6BKSDjhY-iN0T2q0u5lmq2P1pwPmFhQxQLqM?from_tab_name=main)
 
-<!-- TODO: 实机录屏截图，建议原创像素风封面 + 游戏内实拍 -->
-![screenshot](docs/screenshot.png)
+<!-- 截图：0 主界面 / 1 导入游戏 / 2 导入 mod / 3 触屏手柄模式 / 4 蓝牙键鼠模式 -->
+
+## 界面预览
+
+![主界面](docs/0.jpg)
+
+| ![导入游戏](docs/1.jpg) | ![导入 mod](docs/2.jpg) |
+| :---: | :---: |
+| 导入游戏 | 导入 mod |
+
+| ![触屏手柄模式](docs/3.jpg) | ![蓝牙键鼠模式](docs/4.jpg) |
+| :---: | :---: |
+| 触屏手柄模式（裸奔平板可玩） | 蓝牙键鼠模式 |
 
 ## 功能特性
 
