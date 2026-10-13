@@ -17,7 +17,7 @@
 
 - HarmonyOS NEXT 手机 / 平板 / PC（已在 Mate X6 手机、MatePad（MRDI-W00）平板、PC 实测）
 - 蓝牙或 USB 键鼠（可选，触屏模式可不接）
-- 预留约 4GB 存储空间（应用 + .NET 运行时 + 游戏文件）
+- 预留约 4GB 存储空间（应用 + 游戏文件）
 
 ## 安装（侧载）
 
@@ -51,7 +51,7 @@ Granary **不包含任何游戏文件**。你需要：
 
 - [Cinderbox (Android)](https://www.nexusmods.com/stardewvalley/mods/43278) / [Ekyso/Cinderbox](https://github.com/Ekyso/Cinderbox) —— 安卓版先行者，本项目架构参考
 - [SMAPI](https://smapi.io/) —— mod 加载框架
-- [SDL3](https://www.libsdl.org/) / [OpenAL Soft](https://openal-soft.org/) / [.NET 运行时](https://dotnet.microsoft.com/) / OpenSSL / lz4
+- [SDL3](https://www.libsdl.org/) / [OpenAL Soft](https://openal-soft.org/) / OpenSSL / lz4
 
 ## 许可证
 
