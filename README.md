@@ -2,6 +2,8 @@
 
 在 **HarmonyOS NEXT（纯血鸿蒙）** 手机 / 平板 / PC 上运行 **PC 版**《星露谷物语》的启动器。
 
+📺 演示视频与使用教程见抖音：[点此关注](https://www.douyin.com/user/MS4wLjABAAAAndgN-tv6BKSDjhY-iN0T2q0u5lmq2P1pwPmFhQxQLqM?from_tab_name=main)
+
 <!-- TODO: 实机录屏截图，建议原创像素风封面 + 游戏内实拍 -->
 ![screenshot](docs/screenshot.png)
 
