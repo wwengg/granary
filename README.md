@@ -31,7 +31,7 @@ Granary 不上架华为应用市场，需要侧载安装：
 
 Granary **不包含任何游戏文件**。你需要：
 
-- 自行拥有 PC 版星露谷物语（[Steam](https://store.steampowered.com/app/413150/) / [GOG](https://www.gog.com/en/game/stardew_valley) 正版）
+- 自行拥有 PC 版星露谷物语（[Steam](https://store.steampowered.com/app/413150/) 正版）
 - 在启动器中通过「选择目录」或「zip 导入」将游戏文件传入应用沙箱
 
 ## 免责声明
@@ -39,13 +39,11 @@ Granary **不包含任何游戏文件**。你需要：
 - 本项目为非官方第三方工具，与 ConcernedApe、Chucklefish 无任何关联
 - 《星露谷物语》(Stardew Valley) 名称与内容版权归原作者所有
 - 本工具仅提供运行环境，不分发、不包含任何游戏资产，请支持正版
-- 仅供个人学习交流使用
+- 本工具**永久免费**，仅供个人学习交流使用，**禁止任何形式的售卖或捆绑收费**
 
 ## 已知问题与计划
 
 - [ ] Steam 登录直接下载游戏（开发中）
-- [ ] mod zip 导入 UI
-- [ ] GOG Galaxy 登录处理
 
 问题反馈请提 [Issues](../../issues)。
 
