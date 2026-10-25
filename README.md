@@ -4,6 +4,9 @@
 
 📺 演示视频与使用教程见抖音：[点此关注](https://www.douyin.com/user/MS4wLjABAAAAndgN-tv6BKSDjhY-iN0T2q0u5lmq2P1pwPmFhQxQLqM?from_tab_name=main)
 
+通过网盘分享的文件：R.Stardew.Valley.1.6.15.rar
+链接: https://pan.baidu.com/s/1nmnrhR2EVlIOrrsgVYLokw 提取码: 8mmb 
+
 <!-- 截图：0 主界面 / 1 导入游戏 / 2 导入 mod / 3 触屏手柄模式 / 4 蓝牙键鼠模式 -->
 
 ## 界面预览
