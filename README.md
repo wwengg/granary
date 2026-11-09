@@ -37,15 +37,16 @@
 
 不带任何外设、裸奔平板可玩——屏幕叠加虚拟手柄图层：左侧摇杆、右侧 A/B/X/Y 动作键、LT/RT 扳机，以及「查询 F1」「聊天 T」等常用键。
 
-### 👆 触屏模式（点击移动）
+### 👆 触屏模式（触屏点击）
 
-像玩手机游戏一样直接点地面走路、点目标互动（开发中，目前仅支持点击移动）。
+裸触屏直接当鼠标用（点击、拖动）。想要手机官方版那样的体验——点地面走路、点目标互动、点哪儿用工具——安装下方[触屏增强 Mod](#触屏增强-mod可选) 即可获得。
 
 ## 功能特性
 
 - 完整运行 PC 版星露谷物语（1.6.15 实测），OpenGL 渲染，实测 60fps
 - 蓝牙 / USB 键鼠直连，桌面级操作体验
 - 触屏虚拟手柄模式——不带键盘也能玩（左摇杆 + 常用按键图层，游戏原生手柄支持）
+- 触屏模式（触摸即鼠标），配合第三方触屏 mod 可获得手机版点按体验
 - SMAPI 4.5.2 mod 支持，兼容桌面 mod（Linux 代码路径）
 - 联机可用（含 Lidgren 网络栈所需的 OpenSSL / LZ4 原生库）
 - 存档管理：启动器内查看 / 导出 / 导入 / 删除存档
@@ -72,6 +73,27 @@ Granary **不包含任何游戏文件**。你需要：
 - 自行拥有 PC 版星露谷物语（[Steam](https://store.steampowered.com/app/413150/) 正版）
 - 在启动器中通过「选择目录」或「zip 导入」将游戏文件传入应用沙箱
 
+## 触屏增强 Mod（可选）
+
+触屏模式下触摸默认按鼠标语义工作（点哪儿点哪儿）。安装 Ekyso 的触屏 mod 组合后，即可获得接近手机官方版的体验（点地面走路、点目标互动、用工具、自动战斗、移动端风格的多工具栏）：
+
+| Mod | 作用 | 前置依赖 |
+|-----|------|----------|
+| [CinderTap](https://www.nexusmods.com/stardewvalley/mods/50006) | 点按移动 / 点目标互动 / 用工具 / 自动战斗，触屏核心 | 无（SMAPI 4.5.2+，Granary 已内置） |
+| [SoManyToolbars](https://www.nexusmods.com/stardewvalley/mods/39436) | 移动端风格多工具栏，可自定义 | [SoManyElements](https://www.nexusmods.com/stardewvalley/mods/40530) |
+| [SoManyElements](https://www.nexusmods.com/stardewvalley/mods/40530) | SoMany 系列的 UI 框架 | 无 |
+| [SoManyButtons](https://www.nexusmods.com/stardewvalley/mods/43236) | 游戏内虚拟按键换肤（可选，Granary 自带外层虚拟手柄，一般用不到） | SoManyElements |
+
+安装方式：
+
+1. 注册 [Nexus Mods](https://www.nexusmods.com/) 账号（免费），手动下载各 mod 的 zip（**不要解包**）
+2. Granary 启动器 →「Mod 管理」→「导入 Mod」，逐个导入 zip
+3. 启动游戏，SMAPI 日志里看到 mod 加载即成功
+
+> ⚠️ 只安装上表列出的 mod。Cinderbox 生态的其他 mod（如 UIInfoSuite2Redux 等）依赖 Cinderbox 运行时，在 Granary 上无法加载。
+>
+> 因 Nexus Mods 协议禁止再分发，Granary 不会内置这些 mod，请自行下载。触屏模式下若点击无反应，欢迎提 [Issues](../../issues) 反馈。
+
 ## 免责声明
 
 - 本项目为非官方第三方工具，与 ConcernedApe、Chucklefish 无任何关联
@@ -90,6 +112,7 @@ Granary **不包含任何游戏文件**。你需要：
 ## 致谢
 
 - [Cinderbox (Android)](https://www.nexusmods.com/stardewvalley/mods/43278) / [Ekyso/Cinderbox](https://github.com/Ekyso/Cinderbox) —— 安卓版先行者，本项目架构参考
+- Ekyso 的 [CinderTap](https://www.nexusmods.com/stardewvalley/mods/50006) / SoMany 系列 —— 推荐配合使用的触屏 mod（见上文）
 - [SMAPI](https://smapi.io/) —— mod 加载框架
 - [SDL3](https://www.libsdl.org/) / [OpenAL Soft](https://openal-soft.org/) / OpenSSL / lz4
 
